@@ -18,3 +18,10 @@
     <countries-table [countries]="countries"></countries-table>
   </div>
 </div>
+
+<div class="row">
+  <div class="col">
+    <shared-loading-spinner *ngIf="isLoading"></shared-loading-spinner>
+    <countries-table [countries]="countries"></countries-table>
+  </div>
+</div>
